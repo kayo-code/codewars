@@ -24,4 +24,5 @@ function alternateCase(s) {
 .join()
 
 .map() 使った回答が多い
+解けました！
  */
