@@ -31,3 +31,4 @@ const getTurkishNumber = (num) => {
 /*
 testで70が "yetmiş sıfır" でなく、"yetmiş"　と表示されてしまうが、Run jsでは "yetmiş sıfır"　と回答できている
  */
+
