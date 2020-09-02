@@ -1,8 +1,3 @@
-/*
-問題　
-https://www.codewars.com/kata/5ebd53ea50d0680031190b96/train/javascript
- */
-
 const getTurkishNumber = (num) => {
   const arr_1 = ["sıfır","bir","iki","üç","dört","beş","altı","yedi","sekiz","dokuz"]
 
@@ -32,4 +27,3 @@ const getTurkishNumber = (num) => {
 /*
 testで70が "yetmiş sıfır" でなく、"yetmiş"　と表示されてしまうが、Run jsでは "yetmiş sıfır"　と回答できている
  */
-
