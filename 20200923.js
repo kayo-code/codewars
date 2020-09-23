@@ -14,3 +14,6 @@ function solution(value){
 
 solution(1024)
 solution(5)
+
+
+test
