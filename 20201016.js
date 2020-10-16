@@ -16,7 +16,7 @@ function removeParentheses(s){
 
 //bespra
 function removeParentheses(s){
-  let count = s.replace(/[^(]/g, "");
+  let count = s.replace(/[^(]/g, "").length;
 
   for (let i = 0; i < count; i++) {
     let last_one_start = s.lastIndexOf("(");
@@ -25,6 +25,7 @@ function removeParentheses(s){
   }
   return s;
 }
+
 
 removeParentheses("example (unwanted thing) example")
 removeParentheses("a(b(c))a(e)")
